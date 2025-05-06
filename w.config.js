@@ -9,7 +9,7 @@ var version = require('./package.json').version;
 
 
 // 程序入口
-var entry =  __dirname + '/src/index.js';
+var entry =  __dirname + '/src/index.tsx'; // Changed to .tsx
 
 // 输出文件
 var output =  {
