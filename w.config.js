@@ -33,7 +33,7 @@ var loaders = [
       loader: 'json',
     },
     {
-      test: /\.(js|jsx)$/,
+      test: /\.(js|jsx|ts|tsx)$/, // Include .ts and .tsx extensions
       exclude: /node_modules/,
       loader: 'babel!eslint-loader',
     },
